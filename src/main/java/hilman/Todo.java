@@ -1,0 +1,29 @@
+package hilman
+
+public class Todo {
+	private Integer id;
+	private String keterangan;
+	private Boolean selesai;
+	
+	public Integer getId(){
+		return id;
+	}
+	public void setI(Integer id){
+		this.id = id;
+	}
+	
+	public String getKeterangan(){
+		return keterangan;
+	}
+	public void setKeterangan(String keterangan){
+		this.id = id;
+	}
+	public Boolean getSelesai(){
+		return selesai;
+	}
+	public void setSelesai(Boolean selesai){
+		this.selesai = selesai;
+	}
+}
+		this
+		
