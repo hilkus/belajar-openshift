@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -97,7 +95,7 @@
       </table>
 
         <footer class="footer">
-        <p>&copy; <a href="http://software.endy.muhardin.com">Hilman Kuswana</a> 2015</p>
+        <p>&copy; <a>Hilman Kuswana</a> 2015</p>
       </footer>
 
     </div> <!-- /container -->
