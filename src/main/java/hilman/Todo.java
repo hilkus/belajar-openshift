@@ -1,12 +1,13 @@
 package hilman;
 
-public class Todo {
+public class Todo{
 	private Integer id;
 	private String keterangan;
 	private Boolean selesai;
 	
 	public Integer getId(){
 		return id;
+	
 	}
 	public void setId(Integer id){
 		this.id = id;
@@ -14,16 +15,20 @@ public class Todo {
 	
 	public String getKeterangan(){
 		return keterangan;
+		
 	}
 	public void setKeterangan(String keterangan){
-		this.id = id;
+		this.keterangan = keterangan;
+	
 	}
+	
 	public Boolean getSelesai(){
 		return selesai;
+		
 	}
 	public void setSelesai(Boolean selesai){
 		this.selesai = selesai;
 	}
 }
-		
-		
+
+ 
