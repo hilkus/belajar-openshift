@@ -1,4 +1,4 @@
-package hilman;
+package hilman.servlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,21 +14,21 @@ public class TodoListServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res)
 										throws IOException, ServletException {
 		// Data yg akan ditampilkan,nantinya ambil dr database
-		List<Todo> daftarTodo = new ArrayList<Todo>();
+		List<todo> daftartodo = new ArrayList<todo>();
 		
-		Todo t1 = new Todo();
+		todo t1 = new todo();
 		t1.setId(1);
 		t1.setKeterangan("Registrasi Openshift");
 		t1.setSelesai(true);
-		daftarTodo.add(t1);
+		daftartodo.add(t1);
 		
-		Todo t2 = new Todo();
+		todo t2 = new todo();
 		t2.setId(2);
 		t2.setKeterangan("Buat app baru");
 		t2.setSelesai(false);
-		daftarTodo.add(t2);
+		daftartodo.add(t2);
 		
-		Todo t3 = new Todo();
+		todo t3 = new todo();
 		t3.setId(3);
 		t3.setKeterangan("Deploy Aplikasi");
 		t3.setSelesai(false);

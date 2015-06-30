@@ -1,4 +1,4 @@
-package hilman
+package hilman;
 
 public class Todo {
 	private Integer id;
@@ -8,7 +8,7 @@ public class Todo {
 	public Integer getId(){
 		return id;
 	}
-	public void setI(Integer id){
+	public void setId(Integer id){
 		this.id = id;
 	}
 	
@@ -25,5 +25,5 @@ public class Todo {
 		this.selesai = selesai;
 	}
 }
-		this
+		
 		
